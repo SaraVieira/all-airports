@@ -24,6 +24,7 @@ const start = async () => {
         IATA: 'td:first-child',
         ICAO: 'td:nth-child(2)',
         name: 'td:nth-child(3)',
+        city: 'td:nth-child(4)',
         link: 'td:nth-child(3) a@href'
       })
       .data(data => arr.push(data))
